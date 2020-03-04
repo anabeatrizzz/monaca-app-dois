@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+    
+    <script src="components/loader.js"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+	<br />
+  <h3 class="text-center">Calculadora</h3>
+  <div class="col-md-12">
+    <section class="border text-center" style="padding: 2%;">
+      <input id="caixaTexto" type="text" value="" readonly>
+      <br>
+      <br>
+      <button class="btn btn-outline-primary numero">7</button>
+      <button class="btn btn-outline-primary numero">8</button>
+      <button class="btn btn-outline-primary numero">9</button>
+      <button class="btn btn-outline-primary operador">+</button>
+      <br><br>
+      <button class="btn btn-outline-primary numero">4</button>
+      <button class="btn btn-outline-primary numero">5</button>
+      <button class="btn btn-outline-primary numero">6</button>
+      <button class="btn btn-outline-primary operador">-</button>
+      <br><br>
+      <button class="btn btn-outline-primary numero">1</button>
+      <button class="btn btn-outline-primary numero">2</button>
+      <button class="btn btn-outline-primary numero">3</button>
+      <button class="btn btn-outline-primary operador">/</button>
+      <br><br>
+      <button id="apagar" class="btn btn-outline-primary">C</button>
+      <button class="btn btn-outline-primary numero">0</button>
+      <button id="igual" class="btn btn-outline-primary">=</button>
+      <button class="btn btn-outline-primary operador">*</button>
+    </section>
+    </div>
+    <script src="acao.js"></script>
+</body>
+</html>
