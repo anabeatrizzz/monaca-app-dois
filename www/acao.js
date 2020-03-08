@@ -1,8 +1,5 @@
 $(function(){
   var texto = "";
-  var p = 0;
-  var op = "";
-  var s = 0;
   $(".numero, .operador").click(function(){
     texto += $(this).text()
     $("#caixaTexto").attr("value", texto)
