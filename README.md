@@ -5,7 +5,7 @@
 * [Ajuda](#ajuda)
 * [Como contribuir](#como-contribuir)
 
-Este é o segundo aplicativo que desenvolvo para a disciplina Programação de Aplicativos Mobile I do curso de Desenvolvimento de Sistemas da [ETEC de Itanhaém](https://etecitanhaem.com.br/).
+Este é o segundo aplicativo que desenvolvo para a disciplina Programação de Aplicativos Mobile I do curso de Desenvolvimento de Sistemas da [ETEC de Itanhaém](https://etecitanhaem.com.br/) e...
 
 # [O que aprendi? :thinking:](#índice)
 - O método `eval()` analisa se a string passada como argumento é uma expressão matemática e retorna o resultado dela.
